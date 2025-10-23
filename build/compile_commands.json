@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/Users/naraptis/Desktop/hello-qt/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/naraptis/Desktop/hello-qt/build/hello-qt_autogen/include -isystem /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers -iframework /opt/homebrew/opt/qt/lib -isystem /opt/homebrew/opt/qt/lib/QtCore.framework/Headers -isystem /opt/homebrew/opt/qt/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/opt/qt/include -isystem /opt/homebrew/opt/qt/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -o CMakeFiles/hello-qt.dir/hello-qt_autogen/mocs_compilation.cpp.o -c /Users/naraptis/Desktop/hello-qt/build/hello-qt_autogen/mocs_compilation.cpp",
+  "file": "/Users/naraptis/Desktop/hello-qt/build/hello-qt_autogen/mocs_compilation.cpp",
+  "output": "/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/hello-qt.dir/hello-qt_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/Users/naraptis/Desktop/hello-qt/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/naraptis/Desktop/hello-qt/build/hello-qt_autogen/include -isystem /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers -iframework /opt/homebrew/opt/qt/lib -isystem /opt/homebrew/opt/qt/lib/QtCore.framework/Headers -isystem /opt/homebrew/opt/qt/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/opt/qt/include -isystem /opt/homebrew/opt/qt/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -o CMakeFiles/hello-qt.dir/src/main.cpp.o -c /Users/naraptis/Desktop/hello-qt/src/main.cpp",
+  "file": "/Users/naraptis/Desktop/hello-qt/src/main.cpp",
+  "output": "/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/hello-qt.dir/src/main.cpp.o"
+},
+{
+  "directory": "/Users/naraptis/Desktop/hello-qt/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_TESTCASE_BUILDDIR=\\\"/Users/naraptis/Desktop/hello-qt/build\\\" -DQT_TESTCASE_SOURCEDIR=\\\"/Users/naraptis/Desktop/hello-qt\\\" -DQT_TESTLIB_LIB -I/Users/naraptis/Desktop/hello-qt/build/hello-qt-tests_autogen/include -isystem /opt/homebrew/opt/qt/lib/QtTest.framework/Headers -iframework /opt/homebrew/opt/qt/lib -isystem /opt/homebrew/opt/qt/lib/QtCore.framework/Headers -isystem /opt/homebrew/opt/qt/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/opt/qt/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/hello-qt-tests.dir/hello-qt-tests_autogen/mocs_compilation.cpp.o -c /Users/naraptis/Desktop/hello-qt/build/hello-qt-tests_autogen/mocs_compilation.cpp",
+  "file": "/Users/naraptis/Desktop/hello-qt/build/hello-qt-tests_autogen/mocs_compilation.cpp",
+  "output": "/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/hello-qt-tests.dir/hello-qt-tests_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/Users/naraptis/Desktop/hello-qt/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_TESTCASE_BUILDDIR=\\\"/Users/naraptis/Desktop/hello-qt/build\\\" -DQT_TESTCASE_SOURCEDIR=\\\"/Users/naraptis/Desktop/hello-qt\\\" -DQT_TESTLIB_LIB -I/Users/naraptis/Desktop/hello-qt/build/hello-qt-tests_autogen/include -isystem /opt/homebrew/opt/qt/lib/QtTest.framework/Headers -iframework /opt/homebrew/opt/qt/lib -isystem /opt/homebrew/opt/qt/lib/QtCore.framework/Headers -isystem /opt/homebrew/opt/qt/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/opt/qt/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/hello-qt-tests.dir/tests/test_example.cpp.o -c /Users/naraptis/Desktop/hello-qt/tests/test_example.cpp",
+  "file": "/Users/naraptis/Desktop/hello-qt/tests/test_example.cpp",
+  "output": "/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/hello-qt-tests.dir/tests/test_example.cpp.o"
+}
+]
