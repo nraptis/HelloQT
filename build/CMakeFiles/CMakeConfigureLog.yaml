@@ -201,7 +201,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is AppleClang, found in:
-        /Users/naraptis/Desktop/hello-qt/build/CMakeFiles/4.1.2/CompilerIdCXX/a.out
+        /Users/naraptis/Desktop/HelloQT/build/CMakeFiles/4.1.2/CompilerIdCXX/a.out
       
   -
     kind: "message-v1"
@@ -948,31 +948,31 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/CMakeScratch/TryCompile-Jb0MF1"
-      binary: "/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/CMakeScratch/TryCompile-Jb0MF1"
+      source: "/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/CMakeScratch/TryCompile-vOVA2V"
+      binary: "/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/CMakeScratch/TryCompile-vOVA2V"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_ARCHITECTURES: "arm64"
       CMAKE_OSX_DEPLOYMENT_TARGET: ""
       CMAKE_OSX_SYSROOT: ""
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/CMakeScratch/TryCompile-Jb0MF1'
+        Change Dir: '/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/CMakeScratch/TryCompile-vOVA2V'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_b4c86
-        [1/2] /usr/bin/clang++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_b4c86.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_b4c86.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_b4c86.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_e24e4
+        [1/2] /usr/bin/clang++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_e24e4.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_e24e4.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_e24e4.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Apple clang version 17.0.0 (clang-1700.3.19.1)
         Target: arm64-apple-darwin24.6.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
         clang++: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.0 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/CMakeScratch/TryCompile-Jb0MF1 -target-linker-version 1221.4 -v -fcoverage-compilation-dir=/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/CMakeScratch/TryCompile-Jb0MF1 -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_b4c86.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_b4c86.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_b4c86.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.0 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/CMakeScratch/TryCompile-vOVA2V -target-linker-version 1221.4 -v -fcoverage-compilation-dir=/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/CMakeScratch/TryCompile-vOVA2V -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_e24e4.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_e24e4.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_e24e4.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         clang -cc1 version 17.0.0 (clang-1700.3.19.1) default target arm64-apple-darwin24.6.0
         ignoring nonexistent directory "/usr/local/include"
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"
@@ -986,12 +986,12 @@ events:
          /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
          /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)
         End of search list.
-        [2/2] : && /usr/bin/clang++ -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_b4c86.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b4c86   && :
+        [2/2] : && /usr/bin/clang++ -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_e24e4.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_e24e4   && :
         Apple clang version 17.0.0 (clang-1700.3.19.1)
         Target: arm64-apple-darwin24.6.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 26.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_b4c86 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_b4c86.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 26.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_e24e4 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_e24e4.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld PROJECT:ld-1221.4
         BUILD 16:29:08 Aug 11 2025
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
@@ -1012,7 +1012,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
-      Effective list of requested architectures (possibly empty)  : ""
+      Effective list of requested architectures (possibly empty)  : "arm64"
       Effective list of architectures found in the ABI info binary: "arm64"
   -
     kind: "message-v1"
@@ -1046,17 +1046,17 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/CMakeScratch/TryCompile-Jb0MF1']
+        ignore line: [Change Dir: '/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/CMakeScratch/TryCompile-vOVA2V']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_b4c86]
-        ignore line: [[1/2] /usr/bin/clang++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_b4c86.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_b4c86.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_b4c86.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_e24e4]
+        ignore line: [[1/2] /usr/bin/clang++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_e24e4.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_e24e4.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_e24e4.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Apple clang version 17.0.0 (clang-1700.3.19.1)]
         ignore line: [Target: arm64-apple-darwin24.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
         ignore line: [clang++: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
         ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"]
-        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.0 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/CMakeScratch/TryCompile-Jb0MF1 -target-linker-version 1221.4 -v -fcoverage-compilation-dir=/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/CMakeScratch/TryCompile-Jb0MF1 -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_b4c86.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_b4c86.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_b4c86.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.0 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/CMakeScratch/TryCompile-vOVA2V -target-linker-version 1221.4 -v -fcoverage-compilation-dir=/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/CMakeScratch/TryCompile-vOVA2V -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_e24e4.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_e24e4.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_e24e4.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang -cc1 version 17.0.0 (clang-1700.3.19.1) default target arm64-apple-darwin24.6.0]
         ignore line: [ignoring nonexistent directory "/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"]
@@ -1070,12 +1070,12 @@ events:
         ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [[2/2] : && /usr/bin/clang++ -arch arm64 -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_b4c86.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b4c86   && :]
+        ignore line: [[2/2] : && /usr/bin/clang++ -arch arm64 -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_e24e4.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_e24e4   && :]
         ignore line: [Apple clang version 17.0.0 (clang-1700.3.19.1)]
         ignore line: [Target: arm64-apple-darwin24.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
-        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 26.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_b4c86 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_b4c86.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 26.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_e24e4 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_e24e4.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
           arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -1092,12 +1092,12 @@ events:
           arg [-mllvm] ==> ignore
           arg [-enable-linkonceodr-outlining] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_b4c86] ==> ignore
+          arg [cmTC_e24e4] ==> ignore
           arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
           arg [-search_paths_first] ==> ignore
           arg [-headerpad_max_install_names] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_b4c86.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_e24e4.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lc++] ==> lib [c++]
           arg [-lSystem] ==> lib [System]
           arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
@@ -1142,29 +1142,29 @@ events:
       - "/opt/homebrew/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6/Qt6Dependencies.cmake:35 (_qt_internal_find_third_party_dependencies)"
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6/Qt6Config.cmake:174 (include)"
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/CMakeScratch/TryCompile-m4RPXm"
-      binary: "/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/CMakeScratch/TryCompile-m4RPXm"
+      source: "/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/CMakeScratch/TryCompile-M2XnWS"
+      binary: "/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/CMakeScratch/TryCompile-M2XnWS"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
       CMAKE_MODULE_PATH: "/opt/homebrew/lib/cmake/Qt6;/opt/homebrew/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/opt/homebrew/lib/cmake/Qt6/3rdparty/kwin"
-      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_ARCHITECTURES: "arm64"
       CMAKE_OSX_DEPLOYMENT_TARGET: ""
       CMAKE_OSX_SYSROOT: ""
     buildResult:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/CMakeScratch/TryCompile-m4RPXm'
+        Change Dir: '/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/CMakeScratch/TryCompile-M2XnWS'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_ddec1
-        [1/2] /usr/bin/clang++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu++17 -arch arm64 -MD -MT CMakeFiles/cmTC_ddec1.dir/src.cxx.o -MF CMakeFiles/cmTC_ddec1.dir/src.cxx.o.d -o CMakeFiles/cmTC_ddec1.dir/src.cxx.o -c /Users/naraptis/Desktop/hello-qt/build/CMakeFiles/CMakeScratch/TryCompile-m4RPXm/src.cxx
-        [2/2] : && /usr/bin/clang++ -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_ddec1.dir/src.cxx.o -o cmTC_ddec1   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_fddf8
+        [1/2] /usr/bin/clang++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu++2b -arch arm64 -MD -MT CMakeFiles/cmTC_fddf8.dir/src.cxx.o -MF CMakeFiles/cmTC_fddf8.dir/src.cxx.o.d -o CMakeFiles/cmTC_fddf8.dir/src.cxx.o -c /Users/naraptis/Desktop/HelloQT/build/CMakeFiles/CMakeScratch/TryCompile-M2XnWS/src.cxx
+        [2/2] : && /usr/bin/clang++ -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_fddf8.dir/src.cxx.o -o cmTC_fddf8   && :
         
       exitCode: 0
   -
@@ -1177,7 +1177,7 @@ events:
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:39 (_qt_internal_find_tool_dependencies)"
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6/Qt6Config.cmake:235 (find_package)"
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
     name: "Qt6CoreTools"
     configs:
       -
@@ -1215,11 +1215,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/pkgRedirects/Qt6CoreToolsConfig.cmake"
+        path: "/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/pkgRedirects/Qt6CoreToolsConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/pkgRedirects/qt6coretools-config.cmake"
+        path: "/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/pkgRedirects/qt6coretools-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -1285,7 +1285,7 @@ events:
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:39 (_qt_internal_find_tool_dependencies)"
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6/Qt6Config.cmake:235 (find_package)"
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
     name: "Qt6GuiTools"
     configs:
       -
@@ -1323,11 +1323,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/pkgRedirects/Qt6GuiToolsConfig.cmake"
+        path: "/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/pkgRedirects/Qt6GuiToolsConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/pkgRedirects/qt6guitools-config.cmake"
+        path: "/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/pkgRedirects/qt6guitools-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -1390,7 +1390,7 @@ events:
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:39 (_qt_internal_find_tool_dependencies)"
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6/Qt6Config.cmake:235 (find_package)"
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
     name: "Qt6WidgetsTools"
     configs:
       -
@@ -1428,11 +1428,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/pkgRedirects/Qt6WidgetsToolsConfig.cmake"
+        path: "/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/pkgRedirects/Qt6WidgetsToolsConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/pkgRedirects/qt6widgetstools-config.cmake"
+        path: "/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/pkgRedirects/qt6widgetstools-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -1503,29 +1503,29 @@ events:
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6/Qt6Config.cmake:235 (find_package)"
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
     checks:
       - "Performing Test HAVE_STDATOMIC"
     directories:
-      source: "/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/CMakeScratch/TryCompile-wSgkR5"
-      binary: "/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/CMakeScratch/TryCompile-wSgkR5"
+      source: "/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/CMakeScratch/TryCompile-sUtAFv"
+      binary: "/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/CMakeScratch/TryCompile-sUtAFv"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
       CMAKE_MODULE_PATH: "/opt/homebrew/lib/cmake/Qt6;/opt/homebrew/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/opt/homebrew/lib/cmake/Qt6/3rdparty/kwin"
-      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_ARCHITECTURES: "arm64"
       CMAKE_OSX_DEPLOYMENT_TARGET: ""
       CMAKE_OSX_SYSROOT: ""
     buildResult:
       variable: "HAVE_STDATOMIC"
       cached: true
       stdout: |
-        Change Dir: '/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/CMakeScratch/TryCompile-wSgkR5'
+        Change Dir: '/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/CMakeScratch/TryCompile-sUtAFv'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_48423
-        [1/2] /usr/bin/clang++ -DHAVE_STDATOMIC  -std=gnu++17 -arch arm64 -MD -MT CMakeFiles/cmTC_48423.dir/src.cxx.o -MF CMakeFiles/cmTC_48423.dir/src.cxx.o.d -o CMakeFiles/cmTC_48423.dir/src.cxx.o -c /Users/naraptis/Desktop/hello-qt/build/CMakeFiles/CMakeScratch/TryCompile-wSgkR5/src.cxx
-        [2/2] : && /usr/bin/clang++ -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_48423.dir/src.cxx.o -o cmTC_48423   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_28323
+        [1/2] /usr/bin/clang++ -DHAVE_STDATOMIC  -std=gnu++2b -arch arm64 -MD -MT CMakeFiles/cmTC_28323.dir/src.cxx.o -MF CMakeFiles/cmTC_28323.dir/src.cxx.o.d -o CMakeFiles/cmTC_28323.dir/src.cxx.o -c /Users/naraptis/Desktop/HelloQT/build/CMakeFiles/CMakeScratch/TryCompile-sUtAFv/src.cxx
+        [2/2] : && /usr/bin/clang++ -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_28323.dir/src.cxx.o -o cmTC_28323   && :
         
       exitCode: 0
   -
@@ -1537,7 +1537,7 @@ events:
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6/Qt6Config.cmake:235 (find_package)"
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
     name: "Qt6CorePrivate"
     configs:
       -
@@ -1575,11 +1575,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/pkgRedirects/Qt6CorePrivateConfig.cmake"
+        path: "/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/pkgRedirects/Qt6CorePrivateConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/pkgRedirects/qt6coreprivate-config.cmake"
+        path: "/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/pkgRedirects/qt6coreprivate-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -1646,7 +1646,7 @@ events:
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6/Qt6Config.cmake:235 (find_package)"
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
     mode: "program"
     variable: "MACDEPLOYQT_EXECUTABLE"
     description: "Path to a program."
@@ -1754,7 +1754,7 @@ events:
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6/Qt6Config.cmake:235 (find_package)"
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
     name: "Qt6Core"
     configs:
       -
@@ -1792,11 +1792,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/pkgRedirects/Qt6CoreConfig.cmake"
+        path: "/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/pkgRedirects/Qt6CoreConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/pkgRedirects/qt6core-config.cmake"
+        path: "/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/pkgRedirects/qt6core-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -1890,7 +1890,7 @@ events:
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6/Qt6Config.cmake:235 (find_package)"
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
     mode: "library"
     variable: "OPENGL_gl_LIBRARY"
     description: "OpenGL GL library"
@@ -1989,7 +1989,7 @@ events:
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6/Qt6Config.cmake:235 (find_package)"
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
     mode: "library"
     variable: "OPENGL_glu_LIBRARY"
     description: "OpenGL GLU library"
@@ -2088,7 +2088,7 @@ events:
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6/Qt6Config.cmake:235 (find_package)"
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
     mode: "path"
     variable: "OPENGL_INCLUDE_DIR"
     description: "Include for OpenGL"
@@ -2245,7 +2245,7 @@ events:
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6/Qt6Config.cmake:235 (find_package)"
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
     mode: "path"
     variable: "OPENGL_GLU_INCLUDE_DIR"
     description: "Include for the OpenGL GLU library"
@@ -2401,7 +2401,7 @@ events:
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6/Qt6Config.cmake:235 (find_package)"
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
     mode: "path"
     variable: "Vulkan_INCLUDE_DIR"
     description: "Path to a file."
@@ -2609,7 +2609,7 @@ events:
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6/Qt6Config.cmake:235 (find_package)"
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
     mode: "library"
     variable: "Vulkan_LIBRARY"
     description: "Path to a library."
@@ -2732,7 +2732,7 @@ events:
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6/Qt6Config.cmake:235 (find_package)"
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
     mode: "program"
     variable: "Vulkan_GLSLC_EXECUTABLE"
     description: "Path to a program."
@@ -2893,7 +2893,7 @@ events:
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6/Qt6Config.cmake:235 (find_package)"
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
     mode: "program"
     variable: "Vulkan_GLSLANG_VALIDATOR_EXECUTABLE"
     description: "Path to a program."
@@ -3056,7 +3056,7 @@ events:
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6/Qt6Config.cmake:235 (find_package)"
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
     name: "Qt6DBusTools"
     configs:
       -
@@ -3094,11 +3094,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/pkgRedirects/Qt6DBusToolsConfig.cmake"
+        path: "/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/pkgRedirects/Qt6DBusToolsConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/pkgRedirects/qt6dbustools-config.cmake"
+        path: "/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/pkgRedirects/qt6dbustools-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -3167,7 +3167,7 @@ events:
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6/Qt6Config.cmake:235 (find_package)"
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
     name: "Qt6DBusPrivate"
     configs:
       -
@@ -3205,11 +3205,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/pkgRedirects/Qt6DBusPrivateConfig.cmake"
+        path: "/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/pkgRedirects/Qt6DBusPrivateConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/pkgRedirects/qt6dbusprivate-config.cmake"
+        path: "/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/pkgRedirects/qt6dbusprivate-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -3277,7 +3277,7 @@ events:
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6/Qt6Config.cmake:235 (find_package)"
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
     name: "Qt6DBus"
     configs:
       -
@@ -3315,11 +3315,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/pkgRedirects/Qt6DBusConfig.cmake"
+        path: "/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/pkgRedirects/Qt6DBusConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/pkgRedirects/qt6dbus-config.cmake"
+        path: "/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/pkgRedirects/qt6dbus-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -3384,7 +3384,7 @@ events:
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6/Qt6Config.cmake:235 (find_package)"
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
     name: "Qt6GuiPrivate"
     configs:
       -
@@ -3422,11 +3422,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/pkgRedirects/Qt6GuiPrivateConfig.cmake"
+        path: "/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/pkgRedirects/Qt6GuiPrivateConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/pkgRedirects/qt6guiprivate-config.cmake"
+        path: "/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/pkgRedirects/qt6guiprivate-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -3490,7 +3490,7 @@ events:
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6/Qt6Config.cmake:235 (find_package)"
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
     name: "Qt6Gui"
     configs:
       -
@@ -3528,11 +3528,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/pkgRedirects/Qt6GuiConfig.cmake"
+        path: "/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/pkgRedirects/Qt6GuiConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/pkgRedirects/qt6gui-config.cmake"
+        path: "/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/pkgRedirects/qt6gui-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -3601,7 +3601,7 @@ events:
     backtrace:
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:85 (find_package)"
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6/Qt6Config.cmake:235 (find_package)"
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
     name: "Qt6WidgetsPrivate"
     configs:
       -
@@ -3639,11 +3639,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/pkgRedirects/Qt6WidgetsPrivateConfig.cmake"
+        path: "/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/pkgRedirects/Qt6WidgetsPrivateConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/pkgRedirects/qt6widgetsprivate-config.cmake"
+        path: "/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/pkgRedirects/qt6widgetsprivate-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -3703,7 +3703,7 @@ events:
     kind: "find_package-v1"
     backtrace:
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6/Qt6Config.cmake:235 (find_package)"
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
     name: "Qt6Widgets"
     configs:
       -
@@ -3738,11 +3738,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/pkgRedirects/Qt6WidgetsConfig.cmake"
+        path: "/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/pkgRedirects/Qt6WidgetsConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/pkgRedirects/qt6widgets-config.cmake"
+        path: "/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/pkgRedirects/qt6widgets-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -3817,7 +3817,7 @@ events:
   -
     kind: "find_package-v1"
     backtrace:
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
     name: "Qt6"
     components:
       -
@@ -3855,11 +3855,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/pkgRedirects/Qt6Config.cmake"
+        path: "/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/pkgRedirects/Qt6Config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/pkgRedirects/qt6-config.cmake"
+        path: "/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/pkgRedirects/qt6-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -5028,7 +5028,7 @@ events:
     backtrace:
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6Test/Qt6TestConfig.cmake:85 (find_package)"
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6/Qt6Config.cmake:235 (find_package)"
-      - "CMakeLists.txt:18 (find_package)"
+      - "CMakeLists.txt:22 (find_package)"
     name: "Qt6TestPrivate"
     configs:
       -
@@ -5066,11 +5066,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/pkgRedirects/Qt6TestPrivateConfig.cmake"
+        path: "/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/pkgRedirects/Qt6TestPrivateConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/pkgRedirects/qt6testprivate-config.cmake"
+        path: "/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/pkgRedirects/qt6testprivate-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -5130,7 +5130,7 @@ events:
     kind: "find_package-v1"
     backtrace:
       - "/opt/homebrew/opt/qt/lib/cmake/Qt6/Qt6Config.cmake:235 (find_package)"
-      - "CMakeLists.txt:18 (find_package)"
+      - "CMakeLists.txt:22 (find_package)"
     name: "Qt6Test"
     configs:
       -
@@ -5165,11 +5165,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/pkgRedirects/Qt6TestConfig.cmake"
+        path: "/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/pkgRedirects/Qt6TestConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/pkgRedirects/qt6test-config.cmake"
+        path: "/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/pkgRedirects/qt6test-config.cmake"
         mode: "config"
         reason: "no_exist"
       -

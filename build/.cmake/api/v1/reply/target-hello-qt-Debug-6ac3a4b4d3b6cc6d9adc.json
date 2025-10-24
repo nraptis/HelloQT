@@ -40,19 +40,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 11,
+				"line" : 15,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 12,
+				"line" : 16,
 				"parent" : 0
 			},
 			{
 				"command" : 4,
 				"file" : 0,
-				"line" : 9,
+				"line" : 13,
 				"parent" : 0
 			},
 			{
@@ -173,7 +173,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu++17 -arch arm64"
+					"fragment" : "-g -std=gnu++2b -arch arm64"
 				}
 			],
 			"defines" : 
@@ -213,7 +213,7 @@
 			[
 				{
 					"backtrace" : 0,
-					"path" : "/Users/naraptis/Desktop/hello-qt/build/hello-qt_autogen/include"
+					"path" : "/Users/naraptis/Desktop/HelloQT/build/hello-qt_autogen/include"
 				},
 				{
 					"backtrace" : 2,
@@ -249,7 +249,7 @@
 					2,
 					2
 				],
-				"standard" : "17"
+				"standard" : "23"
 			},
 			"sourceIndexes" : 
 			[
@@ -261,11 +261,11 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "hello-qt_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 0,
 			"id" : "hello-qt_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "hello-qt_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "hello-qt::@6890427a1f51a3e7e1df",

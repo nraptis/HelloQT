@@ -2,12 +2,10 @@
   "cmake.generator": "Ninja",
   "cmake.buildDirectory": "${workspaceFolder}/build",
   "cmake.configureSettings": {
-    "CMAKE_PREFIX_PATH": "/opt/homebrew/opt/qt"
+    "CMAKE_PREFIX_PATH": "/opt/homebrew/opt/qt",
+    "CMAKE_OSX_ARCHITECTURES": "arm64"
   },
-
-  // Use compile_commands.json instead of configurationProvider:
-  "C_Cpp.default.compileCommands": "${workspaceFolder}/build/compile_commands.json",
-
-  // Good to set on Apple Silicon:
-  "C_Cpp.default.intelliSenseMode": "macos-clang-arm64"
+  "files.associations": {
+    "qapplication": "cpp"
+  }
 }

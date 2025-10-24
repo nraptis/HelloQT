@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/naraptis/Desktop/hello-qt/build"
+			"value" : "/Users/naraptis/Desktop/HelloQT/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -407,7 +407,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/pkgRedirects"
+			"value" : "/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -479,7 +479,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/naraptis/Desktop/hello-qt"
+			"value" : "/Users/naraptis/Desktop/HelloQT"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -955,11 +955,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "Build architectures for OSX"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "arm64"
 		},
 		{
 			"name" : "CMAKE_OSX_DEPLOYMENT_TARGET",
@@ -6567,7 +6567,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/naraptis/Desktop/hello-qt/build"
+			"value" : "/Users/naraptis/Desktop/HelloQT/build"
 		},
 		{
 			"name" : "hello_qt_IS_TOP_LEVEL",
@@ -6591,7 +6591,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/naraptis/Desktop/hello-qt"
+			"value" : "/Users/naraptis/Desktop/HelloQT"
 		}
 	],
 	"kind" : "cache",

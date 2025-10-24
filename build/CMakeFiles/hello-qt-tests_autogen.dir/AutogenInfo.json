@@ -1,15 +1,15 @@
 {
-	"BUILD_DIR" : "/Users/naraptis/Desktop/hello-qt/build/hello-qt-tests_autogen",
-	"CMAKE_BINARY_DIR" : "/Users/naraptis/Desktop/hello-qt/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/Users/naraptis/Desktop/hello-qt/build",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/naraptis/Desktop/hello-qt",
+	"BUILD_DIR" : "/Users/naraptis/Desktop/HelloQT/build/hello-qt-tests_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/naraptis/Desktop/HelloQT/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/naraptis/Desktop/HelloQT/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/naraptis/Desktop/HelloQT",
 	"CMAKE_EXECUTABLE" : "/opt/homebrew/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/Users/naraptis/Desktop/hello-qt/CMakeLists.txt",
+		"/Users/naraptis/Desktop/HelloQT/CMakeLists.txt",
 		"/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake",
 		"/opt/homebrew/share/cmake/Modules/CMakeSystem.cmake.in",
-		"/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/4.1.2/CMakeSystem.cmake",
+		"/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/4.1.2/CMakeSystem.cmake",
 		"/opt/homebrew/share/cmake/Modules/CMakeNinjaFindMake.cmake",
 		"/opt/homebrew/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake",
 		"/opt/homebrew/share/cmake/Modules/Platform/Darwin-Initialize.cmake",
@@ -64,7 +64,7 @@
 		"/opt/homebrew/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake",
 		"/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake",
 		"/opt/homebrew/share/cmake/Modules/CMakeCXXCompiler.cmake.in",
-		"/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/4.1.2/CMakeCXXCompiler.cmake",
+		"/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/4.1.2/CMakeCXXCompiler.cmake",
 		"/opt/homebrew/share/cmake/Modules/CMakeSystemSpecificInformation.cmake",
 		"/opt/homebrew/share/cmake/Modules/CMakeGenericSystem.cmake",
 		"/opt/homebrew/share/cmake/Modules/CMakeInitializeConfigs.cmake",
@@ -93,7 +93,7 @@
 		"/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake",
 		"/opt/homebrew/share/cmake/Modules/Internal/FeatureTesting.cmake",
 		"/opt/homebrew/share/cmake/Modules/CMakeCXXCompiler.cmake.in",
-		"/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/4.1.2/CMakeCXXCompiler.cmake",
+		"/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/4.1.2/CMakeCXXCompiler.cmake",
 		"/opt/homebrew/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake",
 		"/opt/homebrew/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake",
 		"/opt/homebrew/share/cmake/Modules/Linker/AppleClang-CXX.cmake",
@@ -524,27 +524,27 @@
 		"/opt/homebrew/opt/qt/lib/cmake/Qt6Test/QtTestProperties.cmake",
 		"/opt/homebrew/opt/qt/lib/cmake/Qt6Test/Qt6TestVersionlessAliasTargets.cmake"
 	],
-	"CMAKE_SOURCE_DIR" : "/Users/naraptis/Desktop/hello-qt",
+	"CMAKE_SOURCE_DIR" : "/Users/naraptis/Desktop/HelloQT",
 	"CROSS_CONFIG" : false,
-	"DEP_FILE" : "/Users/naraptis/Desktop/hello-qt/build/hello-qt-tests_autogen/deps",
+	"DEP_FILE" : "/Users/naraptis/Desktop/HelloQT/build/hello-qt-tests_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "hello-qt-tests_autogen/timestamp",
 	"HEADERS" : 
 	[
 		[
-			"/Users/naraptis/Desktop/hello-qt/tests/test_example.h",
+			"/Users/naraptis/Desktop/HelloQT/tests/test_example.h",
 			"MU",
 			"KRHXW7JQHD/moc_test_example.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/Users/naraptis/Desktop/hello-qt/build/hello-qt-tests_autogen/include",
-	"MOC_COMPILATION_FILE" : "/Users/naraptis/Desktop/hello-qt/build/hello-qt-tests_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/Users/naraptis/Desktop/HelloQT/build/hello-qt-tests_autogen/include",
+	"MOC_COMPILATION_FILE" : "/Users/naraptis/Desktop/HelloQT/build/hello-qt-tests_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"QT_CORE_LIB",
-		"QT_TESTCASE_BUILDDIR=\"/Users/naraptis/Desktop/hello-qt/build\"",
-		"QT_TESTCASE_SOURCEDIR=\"/Users/naraptis/Desktop/hello-qt\"",
+		"QT_TESTCASE_BUILDDIR=\"/Users/naraptis/Desktop/HelloQT/build\"",
+		"QT_TESTCASE_SOURCEDIR=\"/Users/naraptis/Desktop/HelloQT\"",
 		"QT_TESTLIB_LIB"
 	],
 	"MOC_DEPEND_FILTERS" : 
@@ -581,35 +581,35 @@
 	"MOC_PREDEFS_CMD" : 
 	[
 		"/usr/bin/clang++",
-		"-std=gnu++17",
+		"-std=gnu++2b",
 		"-w",
 		"-dM",
 		"-E",
 		"/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/Users/naraptis/Desktop/hello-qt/build/hello-qt-tests_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/Users/naraptis/Desktop/HelloQT/build/hello-qt-tests_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : 
 	[
-		"/Users/naraptis/Desktop/hello-qt/build/hello-qt_autogen/mocs_compilation.cpp"
+		"/Users/naraptis/Desktop/HelloQT/build/hello-qt_autogen/mocs_compilation.cpp"
 	],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 12,
-	"PARSE_CACHE_FILE" : "/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/hello-qt-tests_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/hello-qt-tests_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/opt/homebrew/opt/qt/share/qt/libexec/moc",
 	"QT_UIC_EXECUTABLE" : "/opt/homebrew/opt/qt/share/qt/libexec/uic",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 9,
-	"SETTINGS_FILE" : "/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/hello-qt-tests_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/hello-qt-tests_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/Users/naraptis/Desktop/hello-qt/tests/test_example.cpp", "MU", null ]
+		[ "/Users/naraptis/Desktop/HelloQT/tests/test_example.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
 	"UIC_SKIP" : 
 	[
-		"/Users/naraptis/Desktop/hello-qt/build/hello-qt_autogen/mocs_compilation.cpp"
+		"/Users/naraptis/Desktop/HelloQT/build/hello-qt_autogen/mocs_compilation.cpp"
 	],
 	"UIC_UI_FILES" : [],
 	"USE_BETTER_GRAPH" : true,

@@ -61,7 +61,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /opt/homebrew/bin/cmake --regenerate-during-build -S/Users/naraptis/Desktop/hello-qt -B/Users/naraptis/Desktop/hello-qt/build
+  command = /opt/homebrew/bin/cmake --regenerate-during-build -S/Users/naraptis/Desktop/HelloQT -B/Users/naraptis/Desktop/HelloQT/build
   description = Re-running CMake...
   generator = 1
 

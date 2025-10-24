@@ -11,6 +11,9 @@
 #include <QMessageBox>
 #include <QDir>
 #include <vector>
+#include "Cipher.h"
+#include "CopyCipher.h"
+
 
 struct UI {
     // Window

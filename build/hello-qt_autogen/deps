@@ -1,8 +1,8 @@
 hello-qt_autogen/timestamp: \
-	/Users/naraptis/Desktop/hello-qt/CMakeLists.txt \
-	/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/4.1.2/CMakeCXXCompiler.cmake \
-	/Users/naraptis/Desktop/hello-qt/build/CMakeFiles/4.1.2/CMakeSystem.cmake \
-	/Users/naraptis/Desktop/hello-qt/src/main.cpp \
+	/Users/naraptis/Desktop/HelloQT/CMakeLists.txt \
+	/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/4.1.2/CMakeCXXCompiler.cmake \
+	/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/4.1.2/CMakeSystem.cmake \
+	/Users/naraptis/Desktop/HelloQT/src/main.cpp \
 	/opt/homebrew/lib/cmake/Qt6/FindWrapAtomic.cmake \
 	/opt/homebrew/lib/cmake/Qt6/FindWrapOpenGL.cmake \
 	/opt/homebrew/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake \
