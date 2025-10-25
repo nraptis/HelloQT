@@ -39,19 +39,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 24,
+				"line" : 30,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 28,
+				"line" : 34,
 				"parent" : 0
 			},
 			{
 				"command" : 4,
 				"file" : 0,
-				"line" : 22,
+				"line" : 28,
 				"parent" : 0
 			},
 			{
@@ -242,11 +242,11 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 0,
-			"id" : "hello-qt-tests_autogen::@6890427a1f51a3e7e1df"
+			"id" : "hello-qt-tests_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "hello-qt-tests_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+			"backtrace" : 0,
+			"id" : "hello-qt-tests_autogen::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "hello-qt-tests::@6890427a1f51a3e7e1df",

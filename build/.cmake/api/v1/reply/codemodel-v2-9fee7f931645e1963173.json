@@ -49,14 +49,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "hello-qt::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-hello-qt-Debug-6ac3a4b4d3b6cc6d9adc.json",
+					"jsonFile" : "target-hello-qt-Debug-d7718c53b5ad85468b09.json",
 					"name" : "hello-qt",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "hello-qt-tests::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-hello-qt-tests-Debug-d4af4b05e2f0bbf8654f.json",
+					"jsonFile" : "target-hello-qt-tests-Debug-f45b88393dd1c0bb7b23.json",
 					"name" : "hello-qt-tests",
 					"projectIndex" : 0
 				},

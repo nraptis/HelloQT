@@ -8,5 +8,6 @@
 #include <expected>
 #include <algorithm>
 #include <limits>
+#include <cstdint>
 
 #endif

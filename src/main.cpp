@@ -13,7 +13,9 @@
 #include <vector>
 #include "Cipher.h"
 #include "CopyCipher.h"
-
+#include "Mersenne.hpp"
+#include "ChaCha20Counter.hpp"
+#include "AESCounter.hpp"
 
 struct UI {
     // Window
@@ -210,5 +212,10 @@ int main(int argc, char *argv[]) {
     });
 
     window.show();
+
+
+    ChaCha20Counter c;
+    AESCounter m;
+
     return app.exec();
 }

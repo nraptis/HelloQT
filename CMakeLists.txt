@@ -12,7 +12,13 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 find_package(Qt6 REQUIRED COMPONENTS Widgets)
 
-add_executable(hello-qt src/main.cpp)
+add_executable(hello-qt 
+    src/main.cpp
+    src/AESCounter.cpp
+    src/ChaCha20Counter.cpp
+    src/Mersenne.cpp
+    src/CopyCipher.cpp
+)
 target_link_libraries(hello-qt PRIVATE Qt6::Widgets)
 
 

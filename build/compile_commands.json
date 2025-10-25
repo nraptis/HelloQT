@@ -13,6 +13,30 @@
 },
 {
   "directory": "/Users/naraptis/Desktop/HelloQT/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/naraptis/Desktop/HelloQT/build/hello-qt_autogen/include -isystem /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers -iframework /opt/homebrew/opt/qt/lib -isystem /opt/homebrew/opt/qt/lib/QtCore.framework/Headers -isystem /opt/homebrew/opt/qt/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/opt/qt/include -isystem /opt/homebrew/opt/qt/lib/QtGui.framework/Headers -g -std=gnu++2b -arch arm64 -o CMakeFiles/hello-qt.dir/src/AESCounter.cpp.o -c /Users/naraptis/Desktop/HelloQT/src/AESCounter.cpp",
+  "file": "/Users/naraptis/Desktop/HelloQT/src/AESCounter.cpp",
+  "output": "/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/hello-qt.dir/src/AESCounter.cpp.o"
+},
+{
+  "directory": "/Users/naraptis/Desktop/HelloQT/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/naraptis/Desktop/HelloQT/build/hello-qt_autogen/include -isystem /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers -iframework /opt/homebrew/opt/qt/lib -isystem /opt/homebrew/opt/qt/lib/QtCore.framework/Headers -isystem /opt/homebrew/opt/qt/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/opt/qt/include -isystem /opt/homebrew/opt/qt/lib/QtGui.framework/Headers -g -std=gnu++2b -arch arm64 -o CMakeFiles/hello-qt.dir/src/ChaCha20Counter.cpp.o -c /Users/naraptis/Desktop/HelloQT/src/ChaCha20Counter.cpp",
+  "file": "/Users/naraptis/Desktop/HelloQT/src/ChaCha20Counter.cpp",
+  "output": "/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/hello-qt.dir/src/ChaCha20Counter.cpp.o"
+},
+{
+  "directory": "/Users/naraptis/Desktop/HelloQT/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/naraptis/Desktop/HelloQT/build/hello-qt_autogen/include -isystem /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers -iframework /opt/homebrew/opt/qt/lib -isystem /opt/homebrew/opt/qt/lib/QtCore.framework/Headers -isystem /opt/homebrew/opt/qt/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/opt/qt/include -isystem /opt/homebrew/opt/qt/lib/QtGui.framework/Headers -g -std=gnu++2b -arch arm64 -o CMakeFiles/hello-qt.dir/src/Mersenne.cpp.o -c /Users/naraptis/Desktop/HelloQT/src/Mersenne.cpp",
+  "file": "/Users/naraptis/Desktop/HelloQT/src/Mersenne.cpp",
+  "output": "/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/hello-qt.dir/src/Mersenne.cpp.o"
+},
+{
+  "directory": "/Users/naraptis/Desktop/HelloQT/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/naraptis/Desktop/HelloQT/build/hello-qt_autogen/include -isystem /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers -iframework /opt/homebrew/opt/qt/lib -isystem /opt/homebrew/opt/qt/lib/QtCore.framework/Headers -isystem /opt/homebrew/opt/qt/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/opt/qt/include -isystem /opt/homebrew/opt/qt/lib/QtGui.framework/Headers -g -std=gnu++2b -arch arm64 -o CMakeFiles/hello-qt.dir/src/CopyCipher.cpp.o -c /Users/naraptis/Desktop/HelloQT/src/CopyCipher.cpp",
+  "file": "/Users/naraptis/Desktop/HelloQT/src/CopyCipher.cpp",
+  "output": "/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/hello-qt.dir/src/CopyCipher.cpp.o"
+},
+{
+  "directory": "/Users/naraptis/Desktop/HelloQT/build",
   "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_TESTCASE_BUILDDIR=\\\"/Users/naraptis/Desktop/HelloQT/build\\\" -DQT_TESTCASE_SOURCEDIR=\\\"/Users/naraptis/Desktop/HelloQT\\\" -DQT_TESTLIB_LIB -I/Users/naraptis/Desktop/HelloQT/build/hello-qt-tests_autogen/include -isystem /opt/homebrew/opt/qt/lib/QtTest.framework/Headers -iframework /opt/homebrew/opt/qt/lib -isystem /opt/homebrew/opt/qt/lib/QtCore.framework/Headers -isystem /opt/homebrew/opt/qt/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/opt/qt/include -g -std=gnu++2b -arch arm64 -o CMakeFiles/hello-qt-tests.dir/hello-qt-tests_autogen/mocs_compilation.cpp.o -c /Users/naraptis/Desktop/HelloQT/build/hello-qt-tests_autogen/mocs_compilation.cpp",
   "file": "/Users/naraptis/Desktop/HelloQT/build/hello-qt-tests_autogen/mocs_compilation.cpp",
   "output": "/Users/naraptis/Desktop/HelloQT/build/CMakeFiles/hello-qt-tests.dir/hello-qt-tests_autogen/mocs_compilation.cpp.o"
